@@ -23,6 +23,10 @@ class User extends Authenticatable
         'password',
     ];
 
+    function myTestApp() {
+        return "OK Altaf Korejo is here";
+    }
+
     /**
      * The attributes that should be hidden for serialization.
      *
